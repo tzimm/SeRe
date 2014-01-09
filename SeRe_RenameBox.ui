@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>227</width>
+    <height>226</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QCheckBox" name="rb_addNmbrs">
+     <property name="text">
+      <string>Add Nmbrs</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>add to:</string>
+     </property>
+     <widget class="QRadioButton" name="rb_nr_beginning">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>105</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>beginning</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rb_nr_ending">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>105</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ending</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>add custom txt:</string>
+     </property>
+     <widget class="QLineEdit" name="txt_custom">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>129</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>_</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="title">
+      <string>add to:</string>
+     </property>
+     <widget class="QRadioButton" name="rb_txt_beginning">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>105</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>beginning</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rb_txt_ending">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>105</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ending</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
